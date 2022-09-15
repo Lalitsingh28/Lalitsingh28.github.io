@@ -374,25 +374,64 @@ header .navbar ul li a:hover{
     width: 50px;
 }
 
-#bt{
+.bt{
     font-size: 20px;
     padding: 8px;
     background-color: #222;
     color: white;
     border-radius: 8px;
     margin-left: 25px;
+    margin-top: 10px;
 }
-#bt:hover{
+.bt:hover{
     background-color: #f9ca24;
     cursor: pointer;
+    transform: scale(1.2);
+}
+
+.text-div-project{
+    height: 200px;
+    width: 50%;
+    margin-top: 10px;
+    /* border: 5px solid white; */
+    margin: 10px 10px 10px 10px;
+}
+.text-div-project>h3{
+    color: #eee;
+    font-size: 15px;
+}
+#project-box{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /* border: 5px solid yellow; */
+    margin-top: 25px;
+}
+
+.image-div-project>img{
+    width: 350px;
+    border-radius: 15px;
+
+}
+.image-div-project>img:hover{
+    transform: scale(1.2);
+    border-radius: 15px;
+    cursor: pointer;
+
+}
+.box-project{
+    display: flex;
+    /* border: 5px solid red; */
 }
 
 
 /* ===== SKILLS =====*/
 .skills-container {
-    row-gap: 2rem;
-    width: 20%;
     margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3,220px);
+    gap: 40px;
+    justify-content: center;
+    
   }
   
   .section-title{
@@ -406,17 +445,19 @@ header .navbar ul li a:hover{
   .skills-text {
     margin-bottom: var(--mb-4);
   }
-  .skills-data {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-    font-weight: var(--font-semi);
-    padding: 0.5rem 1rem;
-    margin-bottom: var(--mb-4);
+  /* .skills-data {
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* width: 40%; */
+    /* align-items: center; */
+    /* align-content: center; */
+    /* position: relative; */
+    /* font-weight: var(--font-semi); */
+    /* padding: 0.5rem 1rem; */
+    /* margin-bottom: var(--mb-4);
     border-radius: 0.5rem;
-    box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
-  }
+    box-shadow: 0 4px 25px rgba(109, 153, 179, 0.15); */
+  /* } */ */
   .skills-icon {
     width: 2rem;
     font-size: 2rem;
@@ -474,7 +515,13 @@ header .navbar ul li a:hover{
     border-radius: 0.5rem;
   }
 
-
+  .skill-logo{
+    width: 50%;
+  }
+  .skill-logo:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+  }
 
 
 
@@ -521,6 +568,11 @@ header .navbar ul li a:hover{
    body{
        padding:0;
    }
+   .skills-container{
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    gap: 30px;
+}
 
 }
 
@@ -529,10 +581,37 @@ header .navbar ul li a:hover{
     html{
         font-size: 50%;
     }
+
+    .skills-container{
+        display: grid;
+        grid-template-columns: repeat(2, 150px);
+        gap: 30px;
+    }
+    .image-div-project>img{
+        width: 300px;
+        border-radius: 15px;
+    
+    }
+    
+    .text-div-project>h3{
+        color: #eee;
+        font-size: 10px;
+    }
+    .bt{
+        font-size: 18px;
+        padding: 8px;
+        background-color: #222;
+        color: white;
+        border-radius: 8px;
+        margin-left: 25px;
+        margin-top: 10px;
+    }
+    
+    
  
  }
 
-@media (max-width:400px){
+@media (max-width:425px){
 
     header{
         width: 100vw;
@@ -558,5 +637,32 @@ header .navbar ul li a:hover{
         margin:3rem 0;
     }
 
+    .skills-container{
+        display: grid;
+        grid-template-columns: repeat(2, 120px);
+        gap: 20px;
+    }
+    .image-div-project>img{
+        width: 200px;
+        border-radius: 15px;
+    
+    }
+    .text-div-project>h3{
+        color: #eee;
+        font-size: 8px;
+    }
+    .box-project{
+        display: block; 
+    }
+    .bt{
+        font-size: 10px;
+        padding: 8px;
+        background-color: #222;
+        color: white;
+        border-radius: 8px;
+        margin-left: 25px;
+        margin-top: 10px;
+    }
+    
    
 }
