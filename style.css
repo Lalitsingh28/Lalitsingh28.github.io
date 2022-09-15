@@ -400,11 +400,16 @@ header .navbar ul li a:hover{
     color: #eee;
     font-size: 15px;
 }
+.text-div-project>h1{
+    color: #f9ca24;
+    font-size: 20px;
+}
 #project-box{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     /* border: 5px solid yellow; */
     margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .image-div-project>img{
@@ -420,6 +425,7 @@ header .navbar ul li a:hover{
 }
 .box-project{
     display: flex;
+    margin-top: 25px;
     /* border: 5px solid red; */
 }
 
