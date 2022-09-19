@@ -108,27 +108,27 @@ header .user .name{
 }
 
 header .user .post{
-    font-size: 2rem;
+    font-size: 1.5rem;
     color:#eee;
 }
 
 header .navbar{
-    width:100%;
+    width:90%;
 }
 
 header .navbar ul{
     list-style: none;
-    padding:1rem 3rem;
+    padding:1rem 1rem;
 }
 
 
 header .navbar ul li a{
     display: block;
     padding:1rem;
-    margin:1.5rem 0;
+    margin:1.0rem 0;
     background:#333;
     color:#fff;
-    font-size: 2rem;
+    font-size: 1.5rem;
     border-radius: 5rem;
 }
 
@@ -373,6 +373,17 @@ header .navbar ul li a:hover{
 #hii{
     width: 50px;
 }
+.gitCalender{
+    width: 80%;
+    margin: auto;
+}
+.gitCalender>h1 , span{
+    text-align: center;
+    
+}
+.calendar{
+    background-color: seagreen;
+}
 
 .bt{
     font-size: 20px;
@@ -451,19 +462,51 @@ header .navbar ul li a:hover{
   .skills-text {
     margin-bottom: var(--mb-4);
   }
-  /* .skills-data {
-    /* display: flex; */
-    /* justify-content: space-between; */
-    /* width: 40%; */
-    /* align-items: center; */
-    /* align-content: center; */
-    /* position: relative; */
-    /* font-weight: var(--font-semi); */
-    /* padding: 0.5rem 1rem; */
-    /* margin-bottom: var(--mb-4);
-    border-radius: 0.5rem;
-    box-shadow: 0 4px 25px rgba(109, 153, 179, 0.15); */
-  /* } */ */
+  .dskill{
+    display: grid;
+    width: 80%;
+    grid-template-columns: repeat(2,1fr);
+    gap: 25px;
+    margin: auto;
+    
+  }
+  .dskill>div :hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    
+  }
+  .dskill>div>h2{
+    color: #f9ca24;
+    font-weight: bold;
+    font-size: 25px;
+  }
+  .dskill>div>h4{
+    color: white;
+    font-size: 18px;
+  }
+  .container {
+    width: 90%;
+    background-color: #ddd;
+    margin-top: 5px;
+    margin-bottom: 35px;
+    border-radius: 5px;
+    
+  }
+  .container>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills {
+    /* text-align: right; */
+    height: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    border-radius: 5px 0px 0px 5px;
+  }
+  .css {width: 80%; height: 5px; background-color: #f9ca24;}
   .skills-icon {
     width: 2rem;
     font-size: 2rem;
@@ -612,7 +655,16 @@ header .navbar ul li a:hover{
         margin-left: 25px;
         margin-top: 10px;
     }
-    
+
+    .dskill>div>h2{
+        font-size: 21px;
+      }
+      .dskill>div>h4{
+        font-size: 15px;
+      }
+      .gitCalender{
+        width: 65%;
+    }
     
  
  }
@@ -668,6 +720,38 @@ header .navbar ul li a:hover{
         border-radius: 8px;
         margin-left: 25px;
         margin-top: 10px;
+    }
+
+    .dskill>div>h2{
+        color: #f9ca24;
+        font-weight: bold;
+        font-size: 18px;
+      }
+      .dskill>div>h4{
+        color: white;
+        font-size: 12px;
+      }
+      .container {
+        width: 90%;
+        background-color: #ddd;
+        margin-top: 5px;
+        margin-bottom: 35px;
+        border-radius: 5px;
+        
+      }
+
+      .dskill{
+        display: grid;
+        width: 80%;
+        grid-template-columns: repeat(1,1fr);
+        gap: 25px;
+        margin: auto;
+        
+      }
+
+      .gitCalender{
+        width: 100%;
+        margin: 0%;
     }
     
    

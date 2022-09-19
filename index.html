@@ -7,7 +7,10 @@
 
     <!-- {/* font awesome cdn link  */} -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-
+    <link
+    rel="stylesheet"
+    href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+ />
     <!-- {/* custom css file link  */} -->
     <link rel="stylesheet" href="style.css">
 
@@ -28,6 +31,7 @@
         <ul>
             <li><a href="#home">Home</a></li>
             <li><a href="#about">About</a></li>
+            <li><a href="#teckStack">Teck Stack</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="#education">Education</a></li>
             <li><a href="#portfolio">Portfolio</a></li>
@@ -93,8 +97,8 @@
 <!-- {/* about section ends */} -->
 
     <!-- skill section starts -->
-    <section class="skills section" id="skills">
-        <h2 class="section-title">Skills</h2>
+    <section class="skills section" id="teckStack">
+        <h2 class="section-title"> Teck Stack</h2>
 
         <div class="skills-container">
 
@@ -123,6 +127,8 @@
                 <img class="skill-logo" src="images/pngwing.com.png" alt="">
 
                 <img class="skill-logo" src="images/git.png" alt="">
+
+                <img class="skill-logo" src="images/api.png" alt="">
             
             
 
@@ -130,6 +136,55 @@
       </section>
 
       <!-- skills section ends -->
+
+      <!-- Skills Section-->
+      <section id="skills">
+        
+        <h2 style="Text-align:center;margin-top:70px ;color:#f9ca24;font-size: 50px;">Skills</h2>
+        <div class="dskill">
+  
+          <div>
+            <h2>Back End Development</h2>
+            <h4>Java | Spring Boot | Hiberbate | MySQL</h4>
+            <div class="container">
+              <div class="skills css">85%</div>
+            </div>
+  
+          </div>
+  
+          <div>
+  
+            <h2>Front End Development</h2>
+            <h4>HTML | CSS | JavaScript</h4>
+            <div class="container">
+              <div class="skills css">90%</div>
+            </div>
+  
+          </div>
+  
+          <div>
+  
+            <h2>DSA And Algorithms</h2>
+            <h4>Array | Stack | Queue | LinkedList</h4>
+            <div class="container">
+              <div class="skills css">70%</div>
+            </div>
+  
+          </div>
+  
+          <div>
+  
+            <h2>Communication Skills</h2>
+            <h4>Team Management | Team Collaboration | Time
+              Management | Decision Making</h4>
+            <div class="container">
+              <div class="skills css">70%</div>
+            </div>
+  
+          </div>
+        </div>
+  
+      </section>
 
 <!-- {/* education section starts  */} -->
 
@@ -217,6 +272,19 @@
 
 <!-- {portfolio section ends } -->
 
+<!-- GitCalender Section Starts  -->
+
+<section class="gitCalender" id="gitCalender">
+    <h1 class="heading"> my <span>GitHub Calendar</span> </h1>
+    <div class="calendar">
+        <!-- Loading stuff -->
+        Loading the data just for you.
+    </div>
+
+</section>
+
+<!-- GitCalender Section Ends -->
+
 <!-- {/* contact section starts  */} -->
 
 <section class="contact" id="contact">
@@ -270,6 +338,15 @@
 <!-- {/* custom js file link  */} -->
 <script src="script.js"></script>
 
+<script
+  src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"
+></script>
+
+<script>
+    GitHubCalendar(".calendar", "lalitsingh28");
+    // or enable responsive functionality
+    GitHubCalendar(".calendar", "lalitsingh28", { responsive: true });
+</script>
 
 </body>
 </html>
