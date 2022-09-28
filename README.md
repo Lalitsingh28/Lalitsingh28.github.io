@@ -14,11 +14,7 @@
     
     HTML 5, CSS, JavaScript
     
-  
-  ## Snaps :-
-  
-
-  
+    
   
   # Link To Portfolio :-
     https://Lalitsingh28.github.io
