@@ -391,6 +391,10 @@ header .navbar ul li a:hover{
     background-color: #f9ca24;
 }
 
+#staticsGit{
+    margin-top: 20px;
+}
+
 .bt{
     font-size: 20px;
     padding: 8px;
