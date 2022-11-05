@@ -47,7 +47,7 @@ section{
     padding:1rem;
 }
 
-.btn{
+.btn {
     padding:.7rem 3rem;
     background:#333;
     color:#fff;
@@ -55,6 +55,14 @@ section{
     margin-top: 1rem;
     font-size: 2rem;
     border-radius: 5rem;
+}
+.btn_resume{
+    color:#fff;
+    background-color: #333;
+    font-size: 1.5rem;
+}
+.btn_resume:hover{
+    background:var(--yellow);
 }
 
 .btn i{
