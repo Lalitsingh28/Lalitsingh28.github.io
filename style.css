@@ -63,6 +63,7 @@ section{
 }
 .btn_resume:hover{
     background:var(--yellow);
+    cursor: pointer;
 }
 
 .btn i{
