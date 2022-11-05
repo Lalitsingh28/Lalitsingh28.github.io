@@ -389,10 +389,14 @@ header .navbar ul li a:hover{
 
 .calendar{
     background-color: #f9ca24;
+    width: 70%;
+    margin: auto;
 }
 
-#staticsGit{
-    margin-top: 20px;
+.staticsGit{
+    margin-top: 10px;
+    margin-left: 20%;
+    
 }
 
 .bt{
@@ -665,6 +669,12 @@ header .navbar ul li a:hover{
         margin-left: 25px;
         margin-top: 10px;
     }
+    .staticsGit{
+        margin-top: 10px;
+        margin-left: 15%;
+        width: 70%;
+        
+    }
 
     .dskill>div>h2{
         font-size: 21px;
@@ -718,6 +728,12 @@ header .navbar ul li a:hover{
     .text-div-project>h3{
         color: #eee;
         font-size: 8px;
+    }
+    .staticsGit{
+        margin-top: 10px;
+        margin-left: 5%;
+        width: 50%;
+        
     }
     .box-project{
         display: block; 
