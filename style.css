@@ -382,22 +382,22 @@ header .navbar ul li a:hover{
 #hii{
     width: 50px;
 }
-.gitCalender{
+/* .gitCalender{
     width: 80%;
     margin: auto;
-}
+} */
 
-.calendar{
+/* .calendar{
     background-color: #f9ca24;
     width: 70%;
     margin: auto;
-}
+} */
 
-.staticsGit{
+/* .staticsGit{
     margin-top: 10px;
     margin-left: 20%;
     
-}
+} */
 
 .bt{
     font-size: 20px;
@@ -669,12 +669,12 @@ header .navbar ul li a:hover{
         margin-left: 25px;
         margin-top: 10px;
     }
-    .staticsGit{
+    /* .staticsGit{
         margin-top: 10px;
         margin-left: 15%;
         width: 70%;
         
-    }
+    } */
 
     .dskill>div>h2{
         font-size: 21px;
@@ -682,9 +682,9 @@ header .navbar ul li a:hover{
       .dskill>div>h4{
         font-size: 15px;
       }
-      .gitCalender{
+      /* .gitCalender{
         width: 65%;
-    }
+    } */
     
  
  }
@@ -774,11 +774,11 @@ header .navbar ul li a:hover{
         margin: auto;
         
       }
-
+/* 
       .gitCalender{
         width: 100%;
         margin: 0%;
-    }
+    } */
     
    
 }
