@@ -19,7 +19,6 @@ $(document).ready(function(){
   });
 
   // smooth scrolling 
-
   $('a[href*="#"]').on('click',function(e){
 
     e.preventDefault();
@@ -34,9 +33,7 @@ $(document).ready(function(){
     );
 
   });
-
 });
-
 function myfun(){
   return window.open('https://drive.google.com/file/d/1sZqfVl9b4OTsn4eAIkIiOpPtdkDHUZ63/view?usp=share_link','_blank');
 }
